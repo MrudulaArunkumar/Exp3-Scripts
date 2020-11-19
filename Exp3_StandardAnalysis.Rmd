@@ -35,7 +35,7 @@ rm(list = ls())
 #set_here()
 
 #loading data from the files
-Exp3data <- read.csv("D:/PhD/Experiments/Exp3 Overshadowing/Data/Exp3Overshadowing_v2/Exp3_almostfulldataset.csv")
+Exp3data <- read.csv("Exp3_almostfulldataset.csv")
 
 
 attach(Exp3data)
