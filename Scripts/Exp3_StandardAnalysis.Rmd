@@ -413,6 +413,10 @@ ggplot(Exp3test, aes(x = Saliency, y = RT_io, color = Validity))+
 
 
 ```{r bg, echo=FALSE, warning=FALSE}
+white <-  Exp3data %>%
+  subset(Screen_bg == "white")
+
+write.csv(white, file = "Exp3_whitebg.csv")
 
 #Splitting the data into two datasets
 whitebg <-  Exp3test %>%
